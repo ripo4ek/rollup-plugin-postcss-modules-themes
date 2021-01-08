@@ -1,0 +1,10 @@
+dist: xenial
+language: node_js
+sudo: false
+cache: npm
+install:
+  - npm install
+  - npm run build
+node_js:
+  - lts/*
+  - node
